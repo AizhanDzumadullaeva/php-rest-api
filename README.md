@@ -1,31 +1,40 @@
-# PHP REST API with MVC Architecture
+# PHP REST API (MVC + CRUD)
 
-Simple but well-structured RESTful API built with native PHP, MySQL and PDO.  
-Demonstrates clean backend development using OOP and MVC pattern.
+RESTful API built with native PHP, OOP, MVC architecture and MySQL + PDO.  
+Perfect for learning and demonstrating backend skills.
 
-## 🚀 Features
-
-- Full CRUD operations (Create, Read, Update, Delete)
-- MVC architecture (Models, Controllers, Config)
+## Features
+- Full CRUD operations
+- Clean MVC structure (Models, Controllers, Config)
 - Secure database connection with PDO
-- JSON responses for all endpoints
-- Query-based routing (`/?path=users&id=1`)
+- All responses in JSON format
+- Simple query-based routing
 - Tested with Postman
 
-## 🛠 Tech Stack
+## Tech Stack
+- PHP (OOP)
+- MySQL + PDO
+- MVC Pattern
+- Postman
 
-- Backend: PHP (OOP), MVC pattern
-- Database: MySQL + PDO
-- Tools: Postman, XAMPP / VS Code, Git
+## Endpoints (Users)
 
-## 📋 Endpoints (Users example)
+| Method | Endpoint                    | Action              |
+|--------|-----------------------------|---------------------|
+| GET    | /?path=users              | Get all users       |
+| GET    | /?path=users&id=1         | Get user by ID      |
+| POST   | /?path=users              | Create new user     |
+| PUT    | /?path=users&id=1         | Update user         |
+| DELETE | /?path=users&id=1         | Delete user         |
 
-| Method | Endpoint                  | Description              |
-|--------|---------------------------|--------------------------|
-| GET    | /?path=users            | Get all users            |
-| GET    | /?path=users&id=1       | Get user by ID           |
-| POST   | /?path=users            | Create new user          |
-| PUT    | /?path=users&id=1       | Update user              |
-| DELETE | /?path=users&id=1       | Delete user              |
+## How to Run
+1. Clone the repository
+2. Create database and import table (if SQL file exists)
+3. Update database credentials in config/ folder
+4. Run on XAMPP/Localhost
+5. Test with Postman
 
-## 🗂 Project Structure
+Made with ❤️ by Aizhan Djumadullaeva — Junior Backend Developer (PHP)
+Open to freelance & remote work.
+
+## Project Structure
