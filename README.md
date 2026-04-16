@@ -1,5 +1,3 @@
-RESTful API built with native PHP, OOP, MVC and MySQL + PDO. Demonstrates clean CRUD operations and backend skills.
-
 # PHP REST API (MVC + CRUD)
 
 RESTful API built with native PHP, OOP, MVC architecture and MySQL + PDO.  
